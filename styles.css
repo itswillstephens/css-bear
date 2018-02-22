@@ -214,9 +214,9 @@
 #mouth-vertical {
   position: fixed;
   top: 51vmin;
-  left: 49vmin;
+  left: 48.9vmin;
   height: 4.5vmin;
-  width: 1vmin;
+  width: 1.2vmin;
   background-color: black;
   z-index: 14;
 }
@@ -247,4 +247,31 @@
   border: 1vmin solid black;
   border-top: 0;
   z-index: 15;
+}
+
+#tongue-base {
+  display: none;
+  position: fixed;
+  top: 56.47vmin;
+  left: 47.1vmin;
+  width: 3.5vmin;
+  height: 10vmin;
+  background-color: #D2A3AD;
+  border-bottom-left-radius: 2vmin;
+  border-bottom-right-radius: 2vmin;
+  border-top-right-radius: 2vmin;
+  border-top-left-radius: 2vmin;
+  border: .6vmin solid black;
+  z-index: 14;
+}
+
+#tongue-crease {
+  display: none;
+  position: fixed;
+  top: 57.1vmin;
+  left: 49.3vmin;
+  height: 9.9vmin;
+  width: .15vmin;
+  background-color: #89606E;
+  z-index: 14;
 }
